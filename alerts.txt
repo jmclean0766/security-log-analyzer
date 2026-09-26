@@ -1,0 +1,38 @@
+ 
+
+ -----BRUTE FORCE REPORT----- 
+
+  Suspicious IP: 192.168.1.50
+  Suspicious Login Attempts: 3
+ Time Window: 2 minutes
+ Timestamps: ['2026-08-02 12:01:22', '2026-08-02 12:01:35', '2026-08-02 12:01:50']
+
+ Suspicious IP: 192.168.1.51
+  Suspicious Login Attempts: 3
+ Time Window: 2 minutes
+ Timestamps: ['2026-08-02 12:20:05', '2026-08-02 12:20:45', '2026-08-02 12:21:20']
+
+ Suspicious IP: 10.0.0.25
+  Suspicious Login Attempts: 3
+ Time Window: 2 minutes
+ Timestamps: ['2026-08-02 13:05:00', '2026-08-02 13:05:30', '2026-08-02 13:06:00']
+
+ Suspicious IP: 203.0.113.45
+  Suspicious Login Attempts: 3
+ Time Window: 2 minutes
+ Timestamps: ['2026-08-02 14:30:00', '2026-08-02 14:31:00', '2026-08-02 14:32:00']
+
+ 
+
+ -----PASSWORD SPRAY REPORT----- 
+
+  Suspicious IP: 10.0.0.25
+ Targeted Users: {'finance', 'jsmith', 'admin'}
+ Suspicious Login Attempts: 8
+ Timestamps: ['2026-08-02 13:05:00', '2026-08-02 13:05:30', '2026-08-02 13:06:00', '2026-08-02 13:06:30', '2026-08-02 13:15:00', '2026-08-02 13:15:30', '2026-08-02 13:16:00', '2026-08-02 13:20:00']
+
+ Suspicious IP: 203.0.113.46
+ Targeted Users: {'finance', 'jsmith', 'admin', 'guest'}
+ Suspicious Login Attempts: 4
+ Timestamps: ['2026-08-02 14:45:00', '2026-08-02 14:50:00', '2026-08-02 14:55:00', '2026-08-02 15:00:00']
+
